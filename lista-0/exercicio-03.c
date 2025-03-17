@@ -43,17 +43,17 @@ int main() {
         setbuf(stdin, 0); // limpa o buffer de entrada
         getchar(); 
 
-		    /* Alternativas para continuar com qualquer tecla, e não apenas com o Enter
-			  a) usando o getch()
-			  - Precisa da biblioteca conio.h  #include <conio.h>
-			  - troque o getchar() por getch()
-			  - só funciona no Windows
-			
-			  b) usando o system("pause") 
-			  - troque as três linhas (printf, setbuf, getchar) por system("pause");
-			  - o comando já imprime o texto "Pressione qualquer telca para continuar..."		
-			  - só funciona no Windows
-		    */
+	/* Alternativas para continuar com qualquer tecla, e não apenas com o Enter
+	a) usando o getch()
+	- Precisa da biblioteca conio.h  #include <conio.h>
+	- troque o getchar() por getch()
+	- só funciona no Windows
+		
+	b) usando o system("pause") 
+	- troque as três linhas (printf, setbuf, getchar) por system("pause");
+	- o comando já imprime o texto "Pressione qualquer telca para continuar..."		
+	- só funciona no Windows
+	*/
                 
         system("cls"); // system("clear"); no Linux ou Mac
         
