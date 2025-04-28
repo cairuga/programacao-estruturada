@@ -17,4 +17,5 @@ int main() {
     }
     printf("Os números informados em ordem inversa são: ");
     imprimir_invertido(numeros, quantidade);
+    return 0;
 }
