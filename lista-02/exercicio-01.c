@@ -9,4 +9,5 @@ int main() {
     printf("Digite um número: ");
     scanf("%d", &numero);
     printf("O dobro de %d é %d.", numero, dobro(numero));
+    return 0;
 }
