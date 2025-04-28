@@ -11,4 +11,5 @@ int main() {
     printf("Digite o segundo valor: ");
     scanf("%f", &valor2);
     printf("A média é %f.", media(valor1, valor2));
+    return 0;
 }
