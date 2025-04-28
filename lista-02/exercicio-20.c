@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Com o que vimos até agora, não conseguir escrever uma função que retorne um vetor. 
+// Com o que vimos até agora, não conseguimos escrever uma função que retorne um vetor. 
 // Por enquanto, vamos criar um procedimento cujo terceiro parâmetro é um vetor de 10 posições
 // que receberá o resultado da concatenação.
 
